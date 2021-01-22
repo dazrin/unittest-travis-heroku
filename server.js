@@ -13,7 +13,7 @@ require('./controller/api-routes')(app);
 
 const server = app.listen(PORT, () => {
   // eslint-disable-next-line no-console
-  console.log('app running on port ', PORT);
+  console.log('My app running on port ', PORT);
 });
 
 // eslint-disable-next-line no-console

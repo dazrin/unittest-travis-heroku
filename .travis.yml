@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  app: lit-thicket-31339
+    secure: dsqLNn5vwELaDHwhagnO8JxpkYKHgnSO0ohrlDcEzvH2l0mW3hx1ZpQOWmMiDIle+lnk5L/3TWztN2Q3P3MmGl1oEGGz3QsBgmMAyUtoZ1qVlPzEhPzp9hoK3R+E0dCTx3CYftl7t2P6JVPV9lXiz23XCi320CTux4nRjWuAUO45bbUuXltrqrYhDqaA5W9jqHlqk6CJDiTtR1Ofi/U/NtWGWYGaGXmlBXqGn7pqX0pXOpFBTXiGDBiuAHyrX/9gaLwnCcZDUGGx4thmIrIn9GmqEz62tXhAuYPMvh8DlqoYUcN+WsttLURvMElFd/hbKo10PrxMCQKZ/jVPtzUX01XX2xH8DlNK7huitE9m759KmHu+Q/wD6Yay8KeqaHLoCZwyuTiSz90rg1MTDVYIGcqi//1WVN2xEfoaE2Jj5c4wcLXpCAVk+LJMt2t4i2jupZVMGmP3Qj9V6E7JtB4yLDSmQM8NCw+NwVbAqx2s6AHiQrO0Ec5VsC/v4YJ5gL6yEOk5+N0aNWhomxGZk8WwUzTfWU+eQx/ilwpwlVmeNMaoPTivmPSkpFu6/pkzTjP6XDsdiyYbvblhLTfg1O9AWPWOL1bQfvwnH03VKNOlCFzCMo1MK0UQ4DV7GF9WYd1eFdZbw8KDGxL3afF+vPhwLjxDXPNubQmHrzOewgX3Zzs=
+  app: unittest-travis-heroku
   on:
     repo: dazrin/unittest-travis-heroku
+  skip_cleanup: 'true'
