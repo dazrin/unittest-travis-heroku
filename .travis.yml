@@ -9,7 +9,7 @@ deploy:
   provider: heroku
   api_key:
     secure: bIq83eJF0I5oNIo512A/thHs0AtmbA4OlS9fDnzwHC3Sh6axX8n5gZ+gIbFfay0Rn1oDHcXx8wUOEnV7rifzt1so4w85pdE2+DPwE3Ye2S0smqBvAgEBNTnViSLo7d1zIp1xyCmpzmyK0HqFyLgWq+je8UM0qSY5iPeK6KLBcx6ifxV8MDX2qmjML/fNMnWOtUk1C7Gm+niHFn1YwWomFR8Y9HiWGq/KzNi10UA+uGzS+oQv46C+lARqrBa2+dsoKmqcg4YrGFauIutOA2xBaO4l10ptZAjcU6QRQ3drx7P/Mdq9sclyvRk3Lolmw0hCCq3CG7tiR9VMRbrAtucW5QcsPKZ3kTDMqTNxb5OrXUKnNlgL6KmtLY/WVHaBYEUUSQaencMV9ej3guCP4fzNd5VqnQQpdvULrQfKZegdBc6rwOhktkQI/o6XUpMwzKjQWQOSODxik8vlvSU1uqBiIxMQXjGkEUjA/++zxqXvwFOAzY85BBASWaFdcxOyLWuQyydxu/GIGCyQMRlV7KsVFMOs803iIyuWtZ0xF7gL/R+15CsKIFiOx8BPMfBpDK2hzlKUavO5w+TAU8YdiL5IJIKoaTdR33J3QFoZ3WpEEYJWjbbM/HG8Ve1wVoq2R18YDcuNY3l+nwPE6gFwK3yGZYvXhd44BHBvZdAH1b25kBU=
-  app: unittest-travis-heroku
+  app: lit-thicket-31339
   on:
     repo: dazrin/unittest-travis-heroku
   skip_cleanup: 'true'
